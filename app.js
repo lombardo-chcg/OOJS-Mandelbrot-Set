@@ -45,7 +45,7 @@ function isMandelbrotNum(x, y) {
 
     if (z.absoluteValue() > 2) {
       numIterations += i;
-      return i/maxIterations * 300;
+      return i/maxIterations * 100;
     }
   }
 
